@@ -1,0 +1,208 @@
+body {
+  background-color: #212121;
+  margin-top: 0px;
+}
+
+.left {
+  position: fixed;
+  left: 10%;
+  height: 100%;
+  width: 15%;
+  text-align: center;
+}
+
+.middle {
+  position: absolute;
+  left: 30%;
+  height: 100%;
+  width: 60%;
+}
+
+.left_avatar {
+  width: 40%;
+  position: relative;
+  top: 60px;
+  border: 5px solid #171717;
+  border-radius: 50%;
+}
+
+.left_title {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.left_box {
+  padding-top: 50px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  background-color: #0D7377;
+}
+
+.left_box_text {
+  padding: 0px 0px 0px 20px;
+  list-style: none;
+  text-align: left;
+}
+
+.left_box_text li {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.left_menu {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  padding: 0px;
+  margin: 0px auto 0px auto;
+  position: relative;
+  top: 10%;
+}
+
+.left_menu li {
+  padding: 10px;
+}
+
+.left_menu li a:hover {
+  color: #0D7377;
+}
+
+.left_menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.left_menu li a:active {
+  color: #0D7377;
+}
+
+h1 {
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: #0D7377;
+}
+
+.box {
+  background-color: #252525;
+  padding: 30px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.box:hover {
+  background-color: #212121;
+}
+
+.logo {
+  width: 10%;
+  float: left;
+  padding-right: 20px;
+}
+
+h2 {
+  color: #14FFEC;
+  margin-top: 10px;
+}
+
+.box ul {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.box ul li {
+  padding-top: 10px;
+  font-size: 0.9rem;
+}
+
+.ielts {
+  font-size: 3.0rem;
+}
+
+.manabian-of-the-month {
+  font-style: italic;
+  padding-top: 20px;
+  line-height: 30px;
+  ;
+}
+
+.skill-item {
+  font-size: 1.0rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 40px;
+}
+
+.skill-logo {
+  width: 6%;
+  float: left;
+  padding-right: 10px;
+}
+
+.star {
+  position: absolute;
+  right: 65%;
+}
+
+.skill-item .image {
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+}
+
+.skill-item img {
+  height: 30px;
+  width: 30px;
+  background-color: #212121;
+  padding: 10px;
+}
+
+.skill-name {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.skill .box:hover, .contact .box:hover {
+  background-color: #252525;
+}
+
+.skill .box .image img:hover {
+  background-color: #252525;
+}
+
+.text-box {
+  display: inline-block;
+  background-color: #212121;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+
+.text-box:hover {
+  background-color: #252525;
+}
+
+.contact i {
+  font-size: 2.5rem;
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+  top: 8px;
+}
+
+.contact .text-box {
+  width: 340px;
+  text-align: center;
+}
+
+.contact .box {
+  width: 460px;
+  ;
+}
